@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon-32x32.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Optimiza tus canales de comunicación en un enlace y agrega la experiencia de compras en tiempo real para mejorar la experiencias de tus clientes" />
+  <meta property="og:title" content="Tus canales de comunicacion simplificados" />
+  <meta property="og:description" content="Optimiza tus canales de comunicación en un enlace y agrega la experiencia de compras en tiempo real para mejorar la experiencias de tus clientes." />
+  <meta property="og:image" content="./meta-image.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <style>
+    .container__widget {
+      width: 65px;
+      height: 65px;
+      background-color: rgb(240, 240, 240);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      right: 40px;
+      bottom: 40px;
+      border-bottom-left-radius: 8px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      opacity: 0.5;
+    }
+
+    .container__widget:hover {
+      transform: scale(1.1);
+      opacity: unset;
+    }
+
+    @media screen and (max-width: 480px) {
+      .container__widget {
+        width: 55px;
+        height: 55px;
+        right: 25px;
+        bottom: 25px;
+      }
+    }
+
+  </style>
+  <script>
+    function load() {
+      var ele = document.getElementById('widget-onedoor');
+      ele.addEventListener("click", () => window.open("https://useonedoor.co/onedoor"), false);
+    }
+    document.addEventListener("DOMContentLoaded", load, false);
+  </script>
+  <title>OneDoor | Tus canales de comunicacion simplificados</title>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div class="container__widget" id="widget-onedoor">
+    <img height="40" width="40"
+      src="https://firebasestorage.googleapis.com/v0/b/one-door-co.appspot.com/o/onedoor.png?alt=media&token=7145b9b0-3d19-448e-9ca7-8b38dc412d67" />
+  </div>
+</body>
+<script src="https://unpkg.com/quickblox@2.13.0/quickblox.min.js"></script>
+
+</html>

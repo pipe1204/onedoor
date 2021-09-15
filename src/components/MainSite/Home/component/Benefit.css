@@ -1,0 +1,79 @@
+.div-benefit {
+    height: 100%;
+    width: auto;
+}
+
+.sub-div-benefit {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90%;
+}
+
+.div-number-benefit {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 24px;
+}
+
+.div-info-benefit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: auto;
+}
+
+.number-benefit {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: #8247F5;
+    border-radius: 50%;
+}
+
+.div-line {
+    width: 1px;
+    height: 205px;
+    background: rgb(242, 242, 242);
+}
+
+.number {
+    color: rgb(255, 255, 255);
+    font-size: 0.75rem;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.benefit-title {
+    font-size: 1.5rem;
+    line-height: 1.33333;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    width: 150px;
+}
+
+.benefit.paragraph {
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 500;
+    margin-top: 24px;
+    width: 230px;
+}
+
+@media screen and (max-width: 768px) {
+.div-benefit {
+    padding-bottom: 72px;
+}
+}

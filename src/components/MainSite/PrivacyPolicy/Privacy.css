@@ -1,0 +1,24 @@
+.main-section-privacy {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 40px;
+    margin-top: 80px;
+}
+
+.first-div-privacy {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.main-heading-privacy {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,246 @@
+.third-section {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.third-div {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.routing-div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.routing-heading {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.complex {
+    text-decoration-line: line-through;
+    color: #9fabb4;
+}
+
+.routing-paragraph {
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+}
+
+.routing-image {
+    width: 57%
+}
+
+.be-there {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.subheading-circle {
+    margin: auto;
+    width: 70%;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.125rem;
+}
+.sample-link {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black
+}
+
+.sample-link-change {
+    color: #cecece;
+    font-weight: 400;
+}
+
+.video {
+    display: block;
+    margin: auto;
+}
+
+.link-heading {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #9fabb4;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-link {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    width: 30%;
+    background-image: linear-gradient(to right, rgb(150, 150, 150) 60%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 20px 2px;
+    background-repeat: repeat-x;
+}
+
+.business-link {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.link-button {
+    background-color: #14E884;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 8px 25px;
+    border: solid 1px #14E884;
+    margin-top: 10px;
+}
+
+.link-button:hover {
+    color: white;
+    background-color: #8247F5;
+    border-color: #8247F5;
+}
+
+.tienda-name {
+    color: #cecece;
+    font-weight: 400;
+}
+
+.div-image-videocall {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .third-section {
+        padding-left: 24px;
+        padding-right: 24px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .third-div {
+        padding-top: 43.0769px;
+        padding-bottom: 43.0769px;
+        align-items: center;
+    }
+
+    .routing-heading {
+        font-size: 1.8rem;
+    }
+
+    .complex {
+        font-size: 1.8rem;
+    }
+
+    .routing-image {
+        width: 100%;
+    }
+
+    .input-link {
+        width: fit-content;
+        padding: 8px 30px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .business-link {
+        font-size: 1rem;
+    }
+    .tienda-name {
+        font-size: 1rem;
+    }
+    .link-heading {
+        font-size: 1.8rem;
+    }
+
+    .link-button {
+        font-size: 1rem;
+    }
+
+    .div-image-videocall {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .be-there {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .subheading-circle {
+        width: 100%;
+        line-height: 2rem;
+    }
+    
+    p .highlight {
+        font-size: 1.125rem;
+    }
+
+    .video {
+        width: 350px;
+        height: 350px;
+    }
+
+    h3 .highlight {
+        font-size: 24px;
+    }
+
+    .sample-link {
+        font-size: 20px;
+    }
+
+    .sample-link-change {
+        font-size: 20px;
+    }
+
+    .routing-heading {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .routing-paragraph {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .routing-image {
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 10pxx;
+    }
+}

@@ -1,0 +1,51 @@
+.third-section-about {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 40px;
+    background-color: #8247F5;
+}
+
+.div-third-section-about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.paragraph-third-section-about {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.heading-third-section {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.div-image-about {
+    text-align: center;
+}
+
+.love-image {
+    width: 30%;
+}
+
+@media screen and (max-width: 480px) {
+    .paragraph-third-section-about {
+        color: white;
+    }
+
+    .heading-third-section {
+        font-size: 2rem;
+    }
+
+    .love-image {
+        width: 80%;
+    }
+}

@@ -1,0 +1,77 @@
+.first-section-about {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 40px;
+    margin-top: 80px;
+}
+
+.first-div-about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.second-div-about {
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small-heading-about {
+    font-size: 0.875rem;
+    line-height: 1.71429;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+}
+
+.main-heading-about {
+    font-size: 5rem;
+    line-height: 1.1;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 48px;
+}
+
+.paragraph-about {
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 500;
+    margin-top: 48px;
+    max-width: 700px;
+}
+
+.onedoor {
+    font-weight: 600;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+
+    .first-section-about {
+        margin-top: 80px;
+    }
+
+    .main-heading-about {
+        font-size: 2rem;
+    }
+
+    .onedoor {
+        font-size: 18px;
+    }
+    
+}

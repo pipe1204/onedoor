@@ -1,0 +1,206 @@
+.container-form {
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.form-div {
+  /*width: 40%;*/
+  margin: auto;
+}
+
+.company-name {
+    font-weight: 700;
+    color: #8247F5;
+    text-align: center;
+}
+
+.desc-form {
+    align-items: center;
+    justify-content: center;
+}
+
+.desc-paragraph {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.input-container {
+    padding: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.form-input {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #efefef;
+    width: 50%;
+    display: block;
+    transition: all 0.3s;
+    padding: 8px 50px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+    width: 100%;
+    outline: none;
+  }
+
+  .videocall-button {
+    background-color: #14E884;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+    .hangout-button {
+        /*background-color: red;*/
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 8px 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+  .videocall-button:hover {
+    background-color: #8247F5;
+  }
+
+  .sucursal-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .selector-sucursal {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #efefef;
+    width: 30%;
+    display: block;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+    width: 100%;
+  }
+
+  .div-call-button {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .questionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+  }
+
+  .questionLabel {
+    color: #8247F5;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .questionInput {
+    border: solid 1px #efefef;
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+    padding: 8px 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .sentQuestion {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8247F5;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .closeQuestion {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .form-div {
+      width: 90%;
+    }
+
+    .form-input {
+      width: 100%;
+    }
+
+    .selector-sucursal {
+      width: 100%;
+    }
+
+    .div-call-button {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+    }
+
+    .questionInput {
+      width: 95%;
+    }
+
+    .questionLabel {
+      padding: 0px 40px;
+    }
+
+  }
+
+.container-video {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qb-video {
+    position: relative;
+    background: #bfbfbf;
+}
+.qb-video_source {
+    height: 100%;
+    margin: auto;
+}

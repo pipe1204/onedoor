@@ -1,0 +1,123 @@
+.price-box-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px 32px;
+    width: 285px;
+    min-height: 380px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 36px;
+    position: relative;
+}
+
+.price-box-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px 32px;
+    width: 285px;
+    min-height: 380px;
+    background-color: #FEA601;
+    border-radius: 36px;
+    position: relative;
+}
+
+.price-box-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px 32px;
+    width: 285px;
+    min-height: 380px;
+    background-color: #8247F5;
+    border-radius: 36px;
+    position: relative;
+}
+
+.span-1 {
+    position: absolute;
+    top: 28px;
+    left: 32px;
+    opacity: 0.5;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.plan-title {
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.price {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.price-description {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.div-button-price {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex: 1 1 0%;
+}
+
+.button-price {
+    position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    height: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.button-price:hover {
+    color: black;
+    background-color: white;
+}
+
+.price-list {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+    .price-box-1 {
+        margin-bottom: 20px;
+    }
+
+    .price-box-2 {
+        margin-bottom: 20px;
+    }
+
+    .price-box-3 {
+        margin-bottom: 20px;
+    }
+
+    .price-box-4 {
+        margin-bottom: 20px;
+    }
+    
+}

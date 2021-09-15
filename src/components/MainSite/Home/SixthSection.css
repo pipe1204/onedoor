@@ -1,0 +1,109 @@
+.sixth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 40px;
+    width: 100%;
+}
+
+.customer-review {
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.review-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.review {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #8247F5;
+    text-align: center;
+}
+
+.first-div-sixth-section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 1038px;
+    width: 100%;
+}
+
+.div-content {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action-title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.build {
+    background: linear-gradient(to top, #14E884 50%, transparent 50%);
+    color: black;
+    padding-top: -10px;
+}
+
+.call-to-action-description {
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    line-height: 1.33333;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cta {
+    background-color: #14E884;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 20px;
+}
+
+.cta:hover {
+    background-color: #8247F5;
+    color: white;
+}
+
+@media  screen and (max-width: 480px) {
+
+    .customer-review {
+        width: 90%;
+    }
+
+    .review {
+        font-size: 2rem;
+    }
+    .call-to-action-title {
+        font-size: 2rem;
+    }
+
+    .build {
+        font-size: 2rem;
+    }
+    
+    .call-to-action-description {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+    .cta {
+        font-size: 20px;
+    }
+    
+}

@@ -1,0 +1,167 @@
+.NavbarItems {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+.language-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-left: 2rem;
+}
+
+.language-div {
+    margin-left: 30px;
+    display: flex;
+}
+
+.language {
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar-logo {
+    width: 180px;
+}
+
+.NavbarItems.active {
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    margin-bottom: 0px;
+}
+
+.nav-links {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #8247F5;
+}
+
+.main-button {
+    background-color: #14E884;
+    color: white;
+}
+
+.inicia-sesion {
+    border-radius: 0.3rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.inicia-sesion:hover {
+    background-color: #8247F5;
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+.registrate {
+    background-color: #14E884;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.registrate:hover {
+    background-color: #8247F5;
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+   
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .nav-menu.active {
+        background-color: white;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        padding-left: 0px;
+    }
+    .nav-links {
+         text-align: center;
+         padding: 1rem;
+         width: 100%;
+         display: table;
+    }
+    .nav-links:hover{
+        color: #8247F5;
+    }
+
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer; 
+    }
+    .registrate {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-logo {
+        width: 140px;
+        margin-left: 10px;
+    }
+
+    .NavbarItems {
+        justify-content: flex-start;
+    }
+
+    .language-nav {
+        margin-left: 10px;
+    }
+
+    .language {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
